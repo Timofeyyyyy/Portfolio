@@ -1,0 +1,1570 @@
+@media (max-width: 1300px) {
+  /* header */
+  .header-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  /* main page */
+  .main-img-block {
+    position: relative;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    height: 300px;
+    background: #ab7ff1;
+  }
+  .main-img-block .main-img {
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    z-index: 1;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+  }
+  .title-block {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 230px;
+    width: 1000px;
+    z-index: 1;
+  }
+  .main-img-block .elips-main {
+    position: absolute;
+    height: 150px;
+    top: 80px;
+    right: 0px;
+  }
+  .title-block .front-title {
+    position: absolute;
+    right: -200px;
+  }
+  /* about-me */
+  .about-block .figma-photo-fon {
+    position: absolute;
+    top: 180px;
+    right: -200px;
+  }
+  .about-block .code-photo-fon {
+    position: absolute;
+    top: 30px;
+    left: -200px;
+  }
+
+  /* contact */
+
+  .contact-block .contact-fon-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 600px;
+    height: 125px;
+    background-color: #8361b8;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .contact-block .contact-img-fon {
+    position: absolute;
+    top: -60px;
+    left: 100px;
+    width: 500px;
+  }
+  .contact-box {
+    padding: 70px;
+    margin-left: 50px;
+  }
+  .social-contact-icons {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+  /* header */
+  .header-container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  /* main page */
+  .main-img-block {
+    position: relative;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    height: 300px;
+    background: #ab7ff1;
+  }
+  .main-img-block .main-img {
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    z-index: 1;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+  }
+  .title-block {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 230px;
+    width: 1000px;
+    z-index: 1;
+  }
+  .title-block .web-title {
+    position: absolute;
+    left: 0;
+  }
+  .title-block .front-title {
+    position: absolute;
+    right: 0px;
+  }
+  .main-img-block .elips-main {
+    position: absolute;
+    height: 150px;
+    top: 80px;
+    right: 0px;
+  }
+  /* skill */
+  .skills-block .right-fon {
+    height: 100%;
+    width: 500px;
+  }
+  .skills-block .left-block {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+  }
+  .left-block .left-block-content {
+    padding: 15px 30px;
+  }
+
+  /* about-me */
+  .about-block .figma-photo-fon {
+    position: absolute;
+    top: 180px;
+    right: -200px;
+  }
+  .about-block .code-photo-fon {
+    position: absolute;
+    top: 30px;
+    left: -200px;
+  }
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .about-block {
+    width: 600px;
+    position: relative;
+    background: #000000;
+    border-radius: 20px;
+  }
+  /* contact */
+
+  .contact-block .contact-fon-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 600px;
+    height: 125px;
+    background-color: #8361b8;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .contact-block .contact-img-fon {
+    position: absolute;
+    top: -60px;
+    left: 100px;
+    width: 500px;
+  }
+  .contact-box {
+    padding: 70px;
+    margin-left: 150px;
+  }
+  .social-contact-icons {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  /* header */
+  .header-container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .nav-link {
+    position: relative;
+    color: #ffffff;
+    margin-right: 40px;
+  }
+
+  /* main page */
+  .main-block-container {
+    display: flex;
+    justify-content: center;
+  }
+  .main-img-block {
+    position: relative;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    height: 300px;
+    background: #ab7ff1;
+  }
+  .main-img-block .main-img {
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    z-index: 1;
+    width: 400px;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+  }
+  .title-block {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 230px;
+    width: 800px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .title-block .web-title {
+    position: absolute;
+    left: 0px;
+    font-size: 50px;
+  }
+  .title-block .front-title {
+    position: absolute;
+    right: -0px;
+    font-size: 50px;
+  }
+  .main-img-block .elips-main {
+    position: absolute;
+    height: 150px;
+    top: 80px;
+    right: 0px;
+  }
+  /* skill */
+
+  .skills-block .right-fon {
+    height: 100%;
+    width: 100%;
+  }
+  .skills-block .left-block {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+  }
+  .left-block .left-block-content {
+    padding: 15px 30px;
+  }
+  .right-block .skills-btn {
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background: #000000;
+    border-radius: 20px;
+    transition: 0.3s all;
+  }
+  .right-block-adaptiv .skills-btn {
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background: #000000;
+    border-radius: 20px;
+    transition: 0.3s all;
+  }
+  .right-block-web .skills-btn {
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background: #000000;
+    border-radius: 20px;
+    transition: 0.3s all;
+  }
+  .skills-block .right-web-fon {
+    height: 100%;
+    width: 350px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  /* contact */
+
+  .contact-block .contact-fon-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 600px;
+    height: 125px;
+    background-color: #8361b8;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .contact-block .contact-img-fon {
+    position: absolute;
+    top: -30px;
+    left: 100px;
+    width: 450px;
+  }
+  .contact-box {
+    padding: 70px;
+    margin-left: 150px;
+  }
+  .social-contact-icons {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+    justify-content: space-between;
+  }
+  /* portfoliao */
+  .portfolio-block .portfolio-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* about-me */
+  .about-block .figma-photo-fon {
+    position: absolute;
+    top: 180px;
+    right: -100px;
+    width: 150px;
+  }
+  .about-block .code-photo-fon {
+    position: absolute;
+    top: 30px;
+    left: -100px;
+    width: 200px;
+  }
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .about-block {
+    width: 600px;
+    position: relative;
+    background: #000000;
+    border-radius: 20px;
+  }
+  .about-block .about-block-content {
+    padding: 50px 70px;
+  }
+  /* skill */
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-block {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-bottom: 500px;
+  }
+
+  .skills-block .right-fon {
+    height: 400px;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
+  }
+  .skills-block .left-block {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+  }
+  .left-block .left-block-content {
+    padding: 15px 30px;
+  }
+  .right-block .skills-btn {
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background: #000000;
+    border-radius: 20px;
+    transition: 0.3s all;
+  }
+  /* two block */
+  .right-block-web {
+    display: none;
+  }
+  .right-block-adaptiv {
+    display: block;
+  }
+  /* portfolio */
+  .portfolio-adaptiv-centre {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio-wrapper {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 70px;
+  }
+  .portfolio-block .btn-block-hidden {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    left: 50%;
+  }
+
+  .portfolio-block .portfolio-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .portfolio-block .portfolio-fon-block {
+    filter: blur(0px);
+    width: 100%;
+    height: 100%;
+  }
+  .portfolio-block:hover .portfolio-fon-block {
+    filter: blur(2px);
+  }
+  .portfolio-block .btn-potfolio-block {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+  .git-btn {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-100%);
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+
+    transition: 0.3s all;
+  }
+  .git-btn:hover {
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.37);
+  }
+  .figma-btn:hover {
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.37);
+  }
+  .figma-btn {
+    margin-left: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-100%);
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #ab7ff1;
+    color: #ffffff;
+    border: none;
+    transition: 0.3s all;
+  }
+  .portfolio-block:hover .figma-btn {
+    transform: translateX(0%);
+    visibility: visible;
+    opacity: 1;
+  }
+  .portfolio-block:hover .git-btn {
+    transform: translateX(0%);
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* contact */
+
+  .contact-block .contact-fon-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 125px;
+    background-color: #8361b8;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .contact-block .contact-img-fon {
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    width: 450px;
+  }
+  .contact-box {
+    padding: 70px;
+    margin-left: 250px;
+  }
+  .social-contact-icons {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+    justify-content: space-between;
+  }
+  .contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left: 80px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+  /* header */
+  .header-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav-link {
+    position: relative;
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  nav {
+    margin-left: 30px;
+  }
+
+  /* main page */
+  .main-block-container {
+    display: flex;
+    justify-content: center;
+  }
+  .main-img-block {
+    position: relative;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    height: 300px;
+    background: #ab7ff1;
+  }
+  .main-img-block .main-img {
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    z-index: 1;
+    width: 400px;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+  }
+  .title-block {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 230px;
+    width: 800px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .title-block .web-title {
+    position: absolute;
+    left: 0px;
+    font-size: 50px;
+  }
+  .title-block .front-title {
+    position: absolute;
+    right: 40px;
+    font-size: 45px;
+  }
+  .main-img-block .elips-main {
+    position: absolute;
+    height: 150px;
+    top: 80px;
+    right: 0px;
+  }
+  .web-title {
+    position: absolute;
+    left: 300px;
+    font-size: 40px;
+    color: #000000bd;
+  }
+  .front-title {
+    font-size: 40px;
+    position: absolute;
+    right: -150px;
+    top: 110px;
+    color: #000000bd;
+  }
+  /* skill */
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-block {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  }
+
+  .skills-block .right-fon {
+    height: 400px;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
+  }
+  .skills-block .left-block {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+  }
+  .left-block .left-block-content {
+    padding: 15px 30px;
+  }
+  .right-block .skills-btn {
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background: #000000;
+    border-radius: 20px;
+    transition: 0.3s all;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  /* header */
+  nav {
+    display: none;
+  }
+
+  .logo-block {
+    position: relative;
+    top: 10px;
+    left: 170px;
+  }
+  /* home page */
+  .title-block {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 230px;
+    width: 600px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .title-block .web-title {
+    position: absolute;
+    left: 0px;
+    font-size: 50px;
+  }
+  .title-block .front-title {
+    position: absolute;
+    right: 0;
+    font-size: 45px;
+  }
+  /* about-me */
+  .about-block .figma-photo-fon {
+    position: absolute;
+    top: 180px;
+    right: -100px;
+    width: 150px;
+  }
+  .about-block .code-photo-fon {
+    position: absolute;
+    top: 30px;
+    left: -100px;
+    width: 200px;
+  }
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .about-block {
+    width: 500px;
+    position: relative;
+    background: #000000;
+    border-radius: 20px;
+  }
+  .about-block .about-block-content {
+    padding: 50px 70px;
+  }
+
+  /* contact */
+  .contact-adaptiv-centre {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-block {
+    position: relative;
+    width: 100%;
+    background: #ab7ff1;
+    border-radius: 50px;
+    height: 750px;
+  }
+
+  .contact-block .contact-fon-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 125px;
+    background-color: #8361b8;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .contact-block .contact-img-fon {
+    position: absolute;
+    top: 360px;
+    left: 150px;
+    width: 450px;
+    z-index: 10;
+  }
+  .contact-box {
+    padding: 30px;
+    margin-left: 0px;
+  }
+  .social-contact-icons {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+    justify-content: space-between;
+  }
+  .contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left: 80px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  /* header */
+  .header-container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .logo-block {
+    position: relative;
+    top: 10px;
+    left: 110px;
+  }
+  /* main page */
+  .main-block-container {
+    display: flex;
+    justify-content: center;
+  }
+  .main-img-block {
+    position: relative;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+    height: 200px;
+    background: #ab7ff1;
+    border-radius: 40px;
+  }
+  .main-img-block .main-img {
+    position: absolute;
+    top: -50px;
+    left: 60px;
+    z-index: 1;
+    width: 350px;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .main-img-block .fon-block {
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    transform: translate(-50%);
+    width: 170px;
+    height: 48px;
+    background: #8361b8;
+    border-radius: 60px;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+  }
+  .title-block {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 230px;
+    width: 600px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .title-block .web-title {
+    position: absolute;
+    left: 0px;
+    font-size: 35px;
+  }
+  .title-block .front-title {
+    position: absolute;
+    right: 50px;
+    font-size: 35px;
+  }
+  .main-img-block .elips-main {
+    position: absolute;
+    height: 70px;
+    top: 70px;
+    right: 0px;
+  }
+  .web-title {
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    font-size: 40px;
+    color: #000000bd;
+  }
+  .front-title {
+    font-size: 40px;
+    position: absolute;
+    right: -100px;
+    top: 110px;
+    color: #000000bd;
+  }
+  /* about-me */
+  .about-block .figma-photo-fon {
+    position: absolute;
+    top: 180px;
+    right: -100px;
+    width: 150px;
+  }
+  .about-block .code-photo-fon {
+    position: absolute;
+    top: 30px;
+    left: -100px;
+    width: 200px;
+  }
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .about-block {
+    width: 100%;
+    position: relative;
+    background: #000000;
+    border-radius: 20px;
+  }
+  .about-block .about-block-content {
+    padding: 30px 40px 160px 40px;
+  }
+  .photo-fon-about {
+    display: none;
+  }
+
+  /* skill */
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-block {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .skills-block .right-fon {
+    height: 400px;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
+  }
+  .skills-block .left-block {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+  }
+  .left-block .left-block-content {
+    padding: 15px 30px;
+  }
+  .right-block .skills-btn {
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background: #000000;
+    border-radius: 20px;
+    transition: 0.3s all;
+  }
+
+  /* top */
+  .top {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    z-index: 20;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #8361b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffb3;
+    transition: 0.3s all;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .top-show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .top:hover {
+    background-color: #ffffff;
+  }
+  .top-icon {
+    width: 30px;
+  }
+  /* top */
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  /* header */
+  .header-container {
+    width: 100%;
+  }
+  .logo-block {
+    position: relative;
+    top: 10px;
+    left: 130px;
+  }
+  /* main page */
+  .main-block-container {
+    display: flex;
+    justify-content: center;
+  }
+  .main-img-block {
+    position: relative;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+
+    height: 200px;
+    background: #ab7ff1;
+    border-radius: 40px;
+  }
+  .main-img-block .main-img {
+    position: absolute;
+    top: -50px;
+    left: 60px;
+    z-index: 1;
+    width: 350px;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .main-img-block .fon-block {
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    transform: translate(-50%);
+    width: 170px;
+    height: 48px;
+    background: #8361b8;
+    border-radius: 60px;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+  }
+  .title-block {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 230px;
+    width: 400px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .title-block .web-title {
+    position: absolute;
+    left: 0px;
+    font-size: 35px;
+    color: #000000bd;
+  }
+  .title-block .front-title {
+    position: absolute;
+    right: 0;
+    font-size: 35px;
+    color: #000000bd;
+  }
+  .main-img-block .elips-main {
+    position: absolute;
+    height: 70px;
+    top: 70px;
+    right: 0px;
+  }
+
+  /* about-me */
+  .about-block .figma-photo-fon {
+    position: absolute;
+    top: 180px;
+    right: -100px;
+    width: 150px;
+  }
+  .about-block .code-photo-fon {
+    position: absolute;
+    top: 30px;
+    left: -100px;
+    width: 200px;
+  }
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .about-block {
+    width: 400px;
+    position: relative;
+    background: #000000;
+    border-radius: 20px;
+  }
+  .about-block .about-block-content {
+    padding: 30px 40px 160px 40px;
+  }
+  .photo-fon-about {
+    display: none;
+  }
+
+  /* skill */
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-block {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
+  .skills-block .right-fon {
+    height: 400px;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
+  }
+  .skills-block .left-block {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+  }
+  .left-block .left-block-content {
+    padding: 15px 30px;
+  }
+  .right-block .skills-btn {
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background: #000000;
+    border-radius: 20px;
+    transition: 0.3s all;
+  }
+  .card-skill {
+    width: 90px;
+
+    background: #ab7ff1;
+    border-radius: 20px;
+  }
+  .card-skill .card-icon {
+    transition: 0.3s all;
+    width: 70px;
+  }
+  .card-title {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  p {
+    line-height: 20px;
+  }
+  .title-block-skills {
+    background: #ab7ff1;
+    padding: 5px 50px;
+    width: 200px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .tilte-skills {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  /* portfolio */
+  .portfolio-adaptiv-centre {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio-wrapper {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 70px;
+  }
+  .portfolio-block {
+    position: relative;
+    width: 100%;
+
+    height: 200px;
+    transition: 0.3s all;
+  }
+
+  .portfolio-block .portfolio-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .portfolio-block .portfolio-fon-block {
+    filter: blur(0px);
+    width: 100%;
+    height: 100%;
+  }
+  .portfolio-block:hover .portfolio-fon-block {
+    filter: blur(2px);
+  }
+  .portfolio-block .btn-potfolio-block {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+
+  /* contact */
+  .contact-adaptiv-centre {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-block {
+    position: relative;
+    width: 100%;
+    background: #ab7ff1;
+    border-radius: 50px;
+    height: 750px;
+  }
+
+  .contact-block .contact-fon-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 125px;
+    background-color: #8361b8;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .contact-block .contact-img-fon {
+    position: absolute;
+    top: 360px;
+    left: 60px;
+    width: 450px;
+    z-index: 10;
+  }
+  .contact-box {
+    padding: 30px;
+    margin-left: 0px;
+  }
+  .social-contact-icons {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+    justify-content: space-between;
+  }
+  .contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .logo-block {
+    position: relative;
+    top: 10px;
+    left: 100px;
+  }
+  /* home page */
+  .main-img-block .main-img {
+    position: absolute;
+    top: -50px;
+    left: 80px;
+    z-index: 1;
+    width: 250px;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .title-block {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 230px;
+    width: 400px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .title-block .web-title {
+    position: absolute;
+    left: 60px;
+    top: 210px;
+    font-size: 35px;
+    color: #000000bd;
+  }
+  .title-block .front-title {
+    position: absolute;
+    right: 105px;
+    top: 170px;
+    font-size: 35px;
+    color: #000000bd;
+  }
+  /* about-me */
+  .about-block .figma-photo-fon {
+    position: absolute;
+    top: 180px;
+    right: -100px;
+    width: 150px;
+  }
+  .about-block .code-photo-fon {
+    position: absolute;
+    top: 30px;
+    left: -100px;
+    width: 200px;
+  }
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .about-block {
+    width: 100%;
+    position: relative;
+    background: #000000;
+    border-radius: 20px;
+  }
+  .about-block .about-block-content {
+    padding: 30px 40px 160px 40px;
+  }
+  .photo-fon-about {
+    display: none;
+  }
+
+  /* skill */
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 300px;
+  }
+  .skills-subtitle {
+    font-size: 30px;
+  }
+  .skills-block .right-fon {
+    height: 300px;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
+  }
+  .skills-block .left-block {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+  }
+  .left-block .left-block-content {
+    padding: 15px 30px;
+  }
+  .right-block .skills-btn {
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background: #000000;
+    border-radius: 20px;
+    transition: 0.3s all;
+  }
+  .card-skill {
+    width: 90px;
+
+    background: #ab7ff1;
+    border-radius: 20px;
+  }
+  .card-skill .card-icon {
+    transition: 0.3s all;
+    width: 70px;
+  }
+  .card-title {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  p {
+    line-height: 20px;
+  }
+
+  /* contact */
+  .contact-adaptiv-centre {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-block {
+    position: relative;
+    width: 100%;
+    background: #ab7ff1;
+    border-radius: 50px;
+    height: 750px;
+  }
+
+  .contact-block .contact-fon-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 125px;
+    background-color: #8361b8;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .contact-block .contact-img-fon {
+    position: absolute;
+    top: 360px;
+    left: 0px;
+    width: 350px;
+    z-index: 10;
+  }
+  .contact-box {
+    padding: 0px;
+    margin-left: 0px;
+  }
+  .social-contact-icons {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+    justify-content: space-between;
+  }
+  .contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left: 0px;
+  }
+  .social-contact-icons {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    width: 250px;
+    justify-content: space-between;
+  }
+  .contact-link {
+    width: 200px;
+  }
+  .social-block {
+    width: 250px;
+    margin-left: 20px;
+  }
+  .social-block .line {
+    width: 100%;
+    background: #000000;
+    height: 4px;
+    z-index: 12;
+  }
+  .social-title {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+  }
+  .contact-card {
+    width: 230px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    height: 40px;
+    margin-right: 40px;
+    transition: 0.3s all;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 375px;
+    margin: 0 auto;
+  }
+  .logo-block {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+}
