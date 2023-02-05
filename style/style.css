@@ -8,14 +8,14 @@
 /* top */
 .top {
   position: fixed;
-  right: 50px;
+  left: 500px;
   bottom: 20px;
   z-index: 10;
   cursor: pointer;
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  border: 3px solid #8361b8;
+  border: 3px solid #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,10 +27,24 @@
 .top-show {
   opacity: 1;
   visibility: visible;
+  position: fixed;
+  left: 50px;
+  bottom: 20px;
+  z-index: 10;
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 3px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffffb3;
+  transition: 0.3s all;
 }
 
 .top:hover {
-  background-color: #ffffff;
+  background-color: #571212;
 }
 .top-icon {
   width: 50px;
@@ -258,7 +272,7 @@ nav {
   border-radius: 20px;
 }
 .about-block .about-block-content {
-  padding: 70px 100px;
+  padding: 70px 130px;
 }
 .title-about {
   color: #ffffff;

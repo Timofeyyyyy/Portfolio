@@ -848,6 +848,9 @@
     width: 500px;
     margin: 0 auto;
   }
+
+  /* top */
+
   /* header */
   .header-container {
     width: 500px;
@@ -1016,7 +1019,7 @@
   /* top */
   .top {
     position: fixed;
-    right: 50px;
+    right: 80px;
     bottom: 20px;
     z-index: 20;
     cursor: pointer;
@@ -1329,8 +1332,10 @@
 }
 
 @media (max-width: 500px) {
+  /* top */
+
   .container {
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
   }
   .logo-block {
