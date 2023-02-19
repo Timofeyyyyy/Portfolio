@@ -448,6 +448,24 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
+.portfolio-block .uvaga-p {
+  transform: translateX(-100%);
+  text-align: center;
+  top: 50px;
+  opacity: 0;
+  visibility: hidden;
+  left: 40px;
+  line-height: 30px;
+  z-index: 5;
+  font-weight: 800;
+  position: absolute;
+  color: #ffffff;
+}
+.portfolio-block:hover .uvaga-p {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
 .portfolio-block {
   position: relative;
   width: 100%;

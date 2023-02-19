@@ -1269,6 +1269,20 @@
     height: 200px;
     transition: 0.3s all;
   }
+  .portfolio-block .uvaga-p {
+    transform: translateX(-100%);
+    text-align: center;
+    top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    left: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    z-index: 5;
+    color: #000;
+    font-weight: 800;
+    position: absolute;
+  }
 
   .portfolio-block .portfolio-img {
     position: absolute;
